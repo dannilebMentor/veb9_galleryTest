@@ -1,0 +1,14 @@
+
+/*Ваши стили*/
+.dannileb-image{
+    background-color: grey;
+}
+.dannileb-text{
+    color: white;
+}
+.dannileb-sign{
+    color:blueviolet;
+}
+.dannileb-sign:hover{
+    color: violet;
+}

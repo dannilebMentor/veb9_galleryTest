@@ -1,0 +1,63 @@
+/*Тут работать нельзя!*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Carlito', sans-serif;
+}
+
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header{
+    background-color: peru;
+}
+.header-title{
+    color: white;
+    text-align: center;
+}
+
+
+.main{
+    min-height: 100vh;
+    background-color: bisque;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.gallery-image-wrapper{
+    max-width: 526px;
+    padding: 4px 8px;
+
+    border-radius: 4px;
+
+}
+.gallery-image{
+    width: 100%;
+    border-radius: 4px;
+}
+.gallery-image-text{
+    margin-top: 8px;
+    font-size: 18px;
+}
+.gallery-image-sign{
+    margin-top: 4px;
+}
+
+footer{
+    background-color: black;
+}
+.footer-text{
+    margin: 4px 0;
+
+    color: whitesmoke;
+    font-size: 14px;
+}
